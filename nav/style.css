@@ -83,6 +83,19 @@
   margin-left: 70px;
 }
 
+.bestsellitemsbtn{
+  margin-top: 50px;
+  width: 181px;
+  height: 200px;
+  line-height: 20px;
+  border-radius: 16px;
+  text-align: center;
+  border: 2px solid rgba(3, 49, 70, 1);
+}
+
+.bsitemimg{
+  width:100px;
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
