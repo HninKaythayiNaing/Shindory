@@ -47,11 +47,40 @@
 }
 
 .btnstyle{
+  margin-top: 5px;
   margin-left: 400px;
   background-color: rgba(3, 49, 70, 1);
   color: white;
   text-align: center;
   border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.btnstyle2{
+  margin-top:30px;
+  background-color: rgba(3, 49, 70, 1);
+  color: white;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.logostyle{
+  margin-left: 460px;
+  width:350px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.loginstyle{
+  margin-left: 400px;
+  width: 500px;
+  height: 350px;
+  line-height: 20px;
+  background-color: rgba(3, 49, 70, 1);
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.loginformstyle{
+  margin-top: 50px;
+  margin-left: 70px;
 }
 
 
