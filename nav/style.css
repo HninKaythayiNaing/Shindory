@@ -4,8 +4,7 @@ body {
 
 .sidenav {
   width: 380px;
-  height: 900px;
-  position: fixed;
+  height: 605px;
   z-index: 1;
   top: 0px;
   left: 10px;
@@ -13,6 +12,7 @@ body {
   overflow-x: hidden;
   padding: 8px 0;
   background-color:  rgba(3, 49, 70, 1);
+  float: left;
 }
 
 .sidenav p {
@@ -33,13 +33,13 @@ body {
 }
 
 .main {
+  width:800px;
   margin-left: 380px; /* Same width as the sidebar + left position in px */
   padding: 0px 10px;
 }
 
 .main p{
   margin-top: 5px;
-  padding: 6px 8px 10px 16px;
   text-decoration: none;
   font-size: 28px;
   color: rgba(3, 49, 70, 1);
@@ -47,10 +47,10 @@ body {
 }
 
 .formstyle{
-  margin-left: 150px;
+  margin-left: 160px;
 }
 
-.btnstyle{
+.btnstylereport{
   margin-top: 5px;
   margin-left: 400px;
   background-color: rgba(3, 49, 70, 1);
@@ -106,10 +106,6 @@ body {
   margin-left: 120px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -121,6 +117,33 @@ body {
     margin-left: 280px;
   }
 
+  .sidenav{
+    width: 300px;
+  }
+
+  .sidenav p {
+  margin-left: 8px;
+  padding: 6px 2px 1px 2px;
+  }
+
+  .userimg{
+  margin-left:80px;
+  width: 135px;
+  height: 123px;
+  }
+
+  .main {
+  width:800px;
+  margin-left: 300px; /* Same width as the sidebar + left position in px */
+  }
+
+  .formstyle{
+  margin-left: 100px;
+  }
+
+  .btnstylereport{
+    margin-left: 350px;
+  }
 }
 
 /********** Small devices only **********/
@@ -132,6 +155,34 @@ body {
   .loginstyle{
     margin-left: 170px;
     width:500px;
+  }
+
+  .sidenav{
+    width:300px;
+  }
+
+  .sidenav p {
+    margin-left: 8px;
+    padding: 4px 2px 1px 2px;
+  }
+
+  .userimg{
+    margin-left:80px;
+    width: 135px;
+    height: 123px;
+  }
+
+  .main {
+  width:600px;
+  margin-left: 300px; /* Same width as the sidebar + left position in px */
+  }
+
+  .formstyle{
+  margin-left: 60px;
+  }
+
+  .btnstylereport{
+    margin-left: 250px;
   }
 
 }
@@ -150,7 +201,35 @@ body {
   .loginformstyle{
     margin-top: 50px;
     margin-left: 70px;
-}
+  }
+
+  .sidenav{
+    width:250px;
+  }
+
+  .sidenav p {
+    margin-left: 8px;
+    padding: 2px 2px 1px 2px;
+  }
+
+  .userimg{
+    margin-left:55px;
+    width: 135px;
+    height: 123px;
+  }
+
+  .main {
+  width:450px;
+  margin-left: 250px; /* Same width as the sidebar + left position in px */
+  }
+
+  .formstyle{
+  margin-left: 80px;
+  }
+
+  .btnstylereport{
+    margin-left: 200px;
+  }
 
 }
 /********** Super extra small devices Only **********/
@@ -167,7 +246,35 @@ body {
   .loginformstyle{
     margin-top: 50px;
     margin-left: 50px;
-}
+  }
+
+  .sidenav{
+    width:180px;
+  }
+
+  .sidenav p {
+    margin-left: 8px;
+    padding: 5px 1px 1px 2px;
+  }
+
+  .userimg{
+    margin-left:40px;
+    width: 100px;
+    height: 80px;
+  }
+
+  .main {
+    width:400px;
+    margin-left: 180px; /* Same width as the sidebar + left position in px */
+  }
+
+  .formstyle{
+    margin-left: 50px;
+  }
+
+  .btnstylereport{
+    margin-left: 150px;
+  }
 }
 
 /********** Super super extra small devices Only  **********/
@@ -184,5 +291,34 @@ body {
   .loginformstyle{
     margin-top: 50px;
     margin-left: 10px;
-}
+  }
+
+    .sidenav{
+    width:180px;
+    height: 670px;
+  }
+
+  .sidenav p {
+    margin-left: 8px;
+    padding: 5px 1px 1px 2px;
+  }
+
+  .userimg{
+    margin-left:40px;
+    width: 100px;
+    height: 80px;
+  }
+
+  .main {
+    width:200px;
+    margin-left: 180px; /* Same width as the sidebar + left position in px */
+  }
+
+  .formstyle{
+    margin-left: 30px;
+  }
+
+  .btnstylereport{
+    margin-left: 70px;
+  }
 }
