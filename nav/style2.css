@@ -31,3 +31,92 @@ input[type=text], input[type=password] {
   width: 40%;
 }
 
+/*nav style*/
+
+.sidenav {
+  width: 25%;
+  height: 100%;
+  z-index: 1;
+  top: 0px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+  background-color:  rgba(3, 49, 70, 1);
+  float: left;
+}
+
+.sidenav p {
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 6px 8px 6px 6px;
+  text-decoration: none;
+  font-size: 2vw;
+  color: rgba(247, 245, 243, 1);
+  display: block;
+}
+
+.userimg{
+  margin-top: 20px;
+  margin-left:25%;
+  width: 50%;
+  height: 50%;
+  
+}
+
+/*report style*/
+.main {
+  width:50%;
+  margin-left: 25%; 
+  padding: 0px 10px;
+}
+.main p{
+  margin-top: 2px;
+  text-decoration: none;
+  font-size: 2vw;
+  color: rgba(3, 49, 70, 1);
+  display: block;
+}
+.formstyle{
+  margin-left: 10%;
+}
+.textareareport{
+  width:200%; 
+  margin-left: 20%;
+}
+.btnstylereport{
+  margin-left: 50%;
+  background-color: rgba(3, 49, 70, 1);
+  color: white;
+}
+
+/*single report style*/
+.reportstyle{
+  width: 100%;
+  margin-left: 20%;
+
+}
+
+/*best selling items style*/
+.bestsellitemsbtn{
+  margin-top: 10%;
+  margin-left: 2%;
+  width: 181px;
+  height: 200px;
+  line-height: 20px;
+  border-radius: 16px;
+  text-align: center;
+  border: 2px solid rgba(3, 49, 70, 1);
+}
+
+.bsitemimg{
+  width:100px;
+}
+
+
+@media (max-width: 479px){
+  .textareareport{
+    margin-top: 9%;
+    margin-left: 1%;
+  }
+}
