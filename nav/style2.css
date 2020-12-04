@@ -1,0 +1,33 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/*login style*/
+
+input[type=text], input[type=password] {
+  width: 50%;
+  margin-left: 25%;
+  margin-top:2%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+
+.lsbtn{
+  margin-top: 3%;
+  margin-left: 35%;
+  background-color: rgba(3, 49, 70, 1);
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+.logo{
+  margin-left: 30%;
+  width: 40%;
+}
+

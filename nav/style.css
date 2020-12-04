@@ -2,9 +2,10 @@ body {
   font-family: "Arial", sans-serif;
 }
 
+/*nav style*/
 .sidenav {
   width: 380px;
-  height: 620px;
+  height: 100%;
   z-index: 1;
   top: 0px;
   left: 10px;
@@ -31,6 +32,8 @@ body {
   height: 123px;
   
 }
+
+/*report style*/
 
 .main {
   width:800px;
@@ -59,12 +62,7 @@ body {
   border: 1px solid rgba(187, 187, 187, 1);
 }
 
-.btnstyle2{
-  margin-top:30px;
-  background-color: rgba(3, 49, 70, 1);
-  color: white;
-  border: 1px solid rgba(187, 187, 187, 1);
-}
+/*login style*/
 
 .logostyle{
   margin-left: 460px;
@@ -85,6 +83,13 @@ body {
 .loginformstyle{
   margin-top: 50px;
   margin-left: 70px;
+}
+
+.btnstyle2{
+  margin-top:30px;
+  background-color: rgba(3, 49, 70, 1);
+  color: white;
+  border: 1px solid rgba(187, 187, 187, 1);
 }
 
 .bestsellitemsbtn{
@@ -188,7 +193,7 @@ body {
 }
 
 /********** Extra small devices only **********/
-@media (min-width: 684px) and (max-width: 767px) {
+@media (max-width: 767px){
   .logostyle{
     margin-left: 150px;
   }
@@ -233,19 +238,21 @@ body {
 
 }
 /********** Super extra small devices Only **********/
-@media (min-width: 582px) and (max-width: 683px) {
+@media (max-width: 479px){
   .logostyle{
-    margin-left: 90px;
+    width: 220px;
+    margin-left: 5px;
   }
 
   .loginstyle{
-    margin-left: 50px;
-    width: 400px;
+    margin-left: 20px;
+    width: 200px;
   }
 
   .loginformstyle{
+    width:150px;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 30px;
   }
 
   .sidenav{
@@ -277,48 +284,3 @@ body {
   }
 }
 
-/********** Super super extra small devices Only  **********/
-@media (max-width: 581px) {
-  .logostyle{
-    margin-left: 40px;
-  }
-
-  .loginstyle{
-    margin-left: 80px;
-    width: 300px;
-  }
-
-  .loginformstyle{
-    margin-top: 50px;
-    margin-left: 10px;
-  }
-
-    .sidenav{
-    width:180px;
-    height: 670px;
-  }
-
-  .sidenav p {
-    margin-left: 8px;
-    padding: 5px 1px 1px 2px;
-  }
-
-  .userimg{
-    margin-left:40px;
-    width: 100px;
-    height: 80px;
-  }
-
-  .main {
-    width:200px;
-    margin-left: 180px; /* Same width as the sidebar + left position in px */
-  }
-
-  .formstyle{
-    margin-left: 30px;
-  }
-
-  .btnstylereport{
-    margin-left: 70px;
-  }
-}
