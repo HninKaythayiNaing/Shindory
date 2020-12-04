@@ -1,3 +1,7 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
 .sidenav {
   width: 380px;
   height: 900px;
@@ -105,4 +109,80 @@
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .logostyle{
+    margin-left: 350px;
+  }
+
+  .loginstyle{
+    margin-left: 280px;
+  }
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .logostyle{
+    margin-left: 250px;
+  }
+
+  .loginstyle{
+    margin-left: 170px;
+    width:500px;
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (min-width: 684px) and (max-width: 767px) {
+  .logostyle{
+    margin-left: 150px;
+  }
+
+  .loginstyle{
+    margin-left: 80px;\
+    width:400px;
+  }
+
+  .loginformstyle{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+}
+/********** Super extra small devices Only **********/
+@media (min-width: 582px) and (max-width: 683px) {
+  .logostyle{
+    margin-left: 90px;
+  }
+
+  .loginstyle{
+    margin-left: 50px;
+    width: 400px;
+  }
+
+  .loginformstyle{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+}
+
+/********** Super super extra small devices Only  **********/
+@media (max-width: 581px) {
+  .logostyle{
+    margin-left: 40px;
+  }
+
+  .loginstyle{
+    margin-left: 80px;
+    width: 300px;
+  }
+
+  .loginformstyle{
+    margin-top: 50px;
+    margin-left: 10px;
+}
 }
