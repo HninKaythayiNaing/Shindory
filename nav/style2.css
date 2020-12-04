@@ -113,6 +113,36 @@ input[type=text], input[type=password] {
   width:100px;
 }
 
+/*stock info seasonal best sales style*/
+.stockitem{
+  background-color: rgba(3, 49, 70, 1);
+  margin-left:35%;
+  width: 50%;
+  height: 50%;
+}
+.stockinfoimg{
+  margin-left:25%;
+  width:50%;
+}
+
+.stockiteminfo{
+  color: rgba(3, 49, 70, 1);
+  font-size: 2vw;
+  text-align: center;
+}
+.stockiteminfo p{
+  margin-left:20%;
+}
+
+.stockiteminfo button{
+  margin-left: 24%;
+  background-color: rgba(3, 49, 70, 1);
+  color: white;
+  border-radius: 20px;
+  background-color: rgba(3, 49, 70, 1);
+  font-size: 2vw;
+  text-align:center;
+}
 
 @media (max-width: 479px){
   .textareareport{
