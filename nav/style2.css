@@ -379,12 +379,13 @@ same as report*/
   text-align:left;
 }
 .singleorder{
-  width: 100%;
+  width: 90%;
   height: 50%;
   border: 1px solid rgba(187, 187, 187, 1);
   background-color: rgba(3, 49, 70, 1);
 }
 .singleorder p{
+  line-height: 100%;
   color: rgba(247, 245, 243, 1);
   font-size: 2vw;
 
@@ -393,6 +394,7 @@ same as report*/
   width: 60px;
 }
 .mmk{
+  line-height: 100%;
   width: 20%;
   background-color: rgba(243, 242, 241, 1);
   color: rgba(16, 16, 16, 1);
@@ -402,6 +404,7 @@ same as report*/
   margin-left:28%;
 }
 .orderbtn{
+  line-height: 120%;
   margin-left: 30%;
   background-color: rgba(3, 49, 70, 1);
   color: white;
@@ -409,6 +412,25 @@ same as report*/
   font-size: 2vw;
   text-align:center;
 }
+
+/*order style*/
+.datetimep{
+  margin-top: 5px;
+  margin-left:2%;
+  color: white;
+  font-size: 2vw;
+  text-align: left;
+  float:left
+}
+.rightmmk{
+    margin-top: 5px;
+    color: rgba(3, 49, 70, 1);
+    font-size: 2vw;
+    color: white; 
+    text-align:center;
+    margin-left:90%
+}
+
 @media (max-width: 479px){
   .textareareport{
     margin-top: 9%;
