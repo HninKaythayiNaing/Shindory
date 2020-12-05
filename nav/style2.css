@@ -97,21 +97,16 @@ input[type=text], input[type=password] {
 
 }
 
-/*best selling items style*/
-.bestsellitemsbtn{
-  margin-top: 10%;
+/*stock style*/
+.itembtn{
+  width: 70%;
+  margin-left: 5%;
+  font-size: 2vw;
+}
+.itembtn img{
   margin-left: 2%;
-  width: 181px;
-  height: 200px;
-  line-height: 20px;
-  border-radius: 16px;
-  text-align: center;
-  border: 2px solid rgba(3, 49, 70, 1);
 }
 
-.bsitemimg{
-  width:100px;
-}
 
 /*stock info seasonal best sales style*/
 .stockitem{
@@ -159,7 +154,7 @@ input[type=text], input[type=password] {
   margin-left: 25%;
   color: rgba(3, 49, 70, 1);
 }
-.seasonalbs{
+.seasonalbs, .home{
   margin-left:25%;
   width: 75%;
 }
@@ -255,12 +250,12 @@ input[type=text], input[type=password] {
   margin-left: 100px;
   left: 300px;
   top: 700px;
-  width: 250px;
-  height: 50px;
+  width: 20%;
+  height: 10%;
   border-radius: 4px;
   background-color: rgba(3, 49, 70, 1);
   color: rgba(243, 242, 241, 1);
-  font-size: 20px;
+  font-size: 2vw;
   text-align: center;
   border: 1px solid rgba(187, 187, 187, 1);
 }
@@ -292,7 +287,7 @@ input[type=text], input[type=password] {
 }
 .report blockquote{
   color: rgba(16, 16, 16, 1);
-  font-size: 2vw;
+  font-size: 1.5vw;
   text-align: left;
   margin-left:5%;
 }
@@ -319,10 +314,62 @@ same as report*/
   margin-left: 5px;
 }
 
+/*home style*/
+.heading{
+  margin-left: 5%; 
+  width: 30%;
+}
+.qrandnotibtn{
+  margin-left: 90%;
+}
+.search{
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.product{
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  border: 1px solid rgba(3, 49, 70, 1);
+}
+.productimg{
+  width:10%;
+  margin-left: 11%;
+}
+.funbtn{
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.funbtn i{
+  margin-top: 10%;
+}
+.funbtn p{
+  margin-left: 2%;
+}
+.productseasonalbs{
+  width: 90%;
+  margin-top: 0%;
+  margin-left: 5%;
+  border: 1px solid rgba(3, 49, 70, 1);
+}
+.seasonalbg{
+  left: 0px;
+  width: 100%;
+  color: white;
+  font-size: 2vw;
+  line-height: 20px;
+  background-color: rgba(3, 49, 70, 1);
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+.seasonalbg p{
+  margin-top: 2%;
+  margin-left: 2%;
+}
 
 @media (max-width: 479px){
   .textareareport{
     margin-top: 9%;
     margin-left: 1%;
   }
+  
 }
