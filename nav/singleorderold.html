@@ -2,7 +2,11 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<style>
+body {
+  font-family: "Arial", sans-serif;
+}
+</style>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -13,27 +17,49 @@
 
 <div class="sidenav">
   <img src="image/user icon.png" class="userimg" alt="User image">
-  <p>Jum</p>
-  <p>ID: 0120</p>
-  <p>Head Office Manager</p>
+  <p>Bi Bi</p>
+  <p>ID: 1009</p>
+  <p>Customer</p>
   <p>Location: Yangon</p>
   <p><i class="fas fa-question-circle fa-1x"></i> Help</p>
   <p><i class="fas fa-cog fa-1x"></i> Setting</p>
 </div>
 
-  <div class="main">
-    <p style="margin-left:1%;"><i class="fas fa-chevron-circle-left fa-1x"></i>  Stock Name</p><br><br>
-  </div>
-    <div class="stockitem">
-      <img src="image/Awba Myay Kg.png" class="stockinfoimg" alt="Awba Product">
-    </div>
-    <div class="stockiteminfo">
-      <p>Awba Myay Kg<br>Fertilizer<br>4600-5000(1kilo)<br>Instock:12</p>
+<div class="main">
+  <p style="margin-left:1%;"><i class="fas fa-chevron-circle-left fa-1x"></i>  Orders</p><br>
+</div>
+<div class="order">
+<table class="singleorder" >
+    <tr >
+      <td class="item">
+        <img src="image/unity.png" class="orderimg"alt="Unity">
+      </td>
+      <td><p>Unity<br>*1<br>9800</p></td>
+    </tr>
+</table>
+<table class="singleorder" >
+    <tr >
+      <td class="item">
+        <img src="image/Awba Myay Kg.png" class="orderimg"alt="Unity">
+      </td>
+      <td><p>Awba<br>*1<br>4600</p></td>
+    </tr>
+</table>
+<table class="singleorder" >
+    <tr >
+      <td class="item">
+        <img src="image/met.png" class="orderimg"alt="Unity">
+      </td>
+      <td><p>Met<br>*1<br>9000</p></td>
+    </tr>
+</table>
+  
+<br>
+  <div class="mmk">   Total MMK   </div>
+    <br>
+    <button class="orderbtn">Order Again</button>
 
-      <p>Main Benefits - protects<br>all kind of crops that fall in grain.</p>
-    
-    <button><i class="fas fa-edit"> Edit</i></button>
-  </div>
+
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

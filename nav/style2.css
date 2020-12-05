@@ -128,13 +128,17 @@ input[type=text], input[type=password] {
 .stockiteminfo p{
   margin-left:20%;
 }
-
+.stockiteminfo input{
+  margin-left: 24%;
+  color: black;
+  font-size: 2vw;
+  text-align:center;
+}
 .stockiteminfo button{
   margin-left: 24%;
   background-color: rgba(3, 49, 70, 1);
   color: white;
-  border-radius: 20px;
-  background-color: rgba(3, 49, 70, 1);
+  border-radius: 2px;
   font-size: 2vw;
   text-align:center;
 }
@@ -366,6 +370,45 @@ same as report*/
   margin-left: 2%;
 }
 
+/*single order old style */
+.order{
+  margin-left:25%;
+  width: 80%;
+  height:5%;
+  line-height: 20px;
+  text-align:left;
+}
+.singleorder{
+  width: 100%;
+  height: 50%;
+  border: 1px solid rgba(187, 187, 187, 1);
+  background-color: rgba(3, 49, 70, 1);
+}
+.singleorder p{
+  color: rgba(247, 245, 243, 1);
+  font-size: 2vw;
+
+}
+.orderimg{
+  width: 60px;
+}
+.mmk{
+  width: 20%;
+  background-color: rgba(243, 242, 241, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 2vw;
+  text-align: center;
+  border: 2px solid rgba(187, 187, 187, 1);
+  margin-left:28%;
+}
+.orderbtn{
+  margin-left: 30%;
+  background-color: rgba(3, 49, 70, 1);
+  color: white;
+  border: 1px solid rgba(187, 187, 187, 1);
+  font-size: 2vw;
+  text-align:center;
+}
 @media (max-width: 479px){
   .textareareport{
     margin-top: 9%;
