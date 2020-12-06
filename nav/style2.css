@@ -5,7 +5,7 @@ body {
 
 /*login style*/
 
-input[type=text], input[type=password] {
+input[type=text], input[type=password]{
   width: 50%;
   margin-left: 25%;
   margin-top:2%;
@@ -37,11 +37,8 @@ input[type=text], input[type=password] {
 .sidenav {
   width: 25%;
   height: 100%;
-  z-index: 1;
-  top: 0px;
-  left: 10px;
+  position: fixed;
   background: #eee;
-  overflow-x: hidden;
   padding: 8px 0;
   background-color:  rgba(3, 49, 70, 1);
   float: left;
@@ -61,13 +58,16 @@ input[type=text], input[type=password] {
   margin-top: 20px;
   margin-left:25%;
   width: 50%;
-  height: 50%;
   
 }
 
 /*report style*/
+.report{
+  width: 100%;
+  margin-left: 25%;
+}
 .main {
-  margin-left: 25%; 
+  text-decoration: none;
   padding: 0px 10px;
 }
 .main p{
@@ -77,29 +77,43 @@ input[type=text], input[type=password] {
   color: rgba(3, 49, 70, 1);
   display: block;
 }
-.formstyle{
-  margin-left: 10%;
+.formlabel{
+  margin-left: 5px;
+  font-size: 2vw;
+}
+.formlabel input{
+  font-size: 2vw;
+}
+.formlabel select{
+  width: 50%;
+  font-size: 2vw;
+  margin-left: 25%;
+  margin-top:2%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 .textareareport{
-  width:200%; 
-  margin-left: 20%;
+  width:80%; 
+  margin-left: 7%;
 }
-.btnstylereport{
-  margin-left: 50%;
-  background-color: rgba(3, 49, 70, 1);
-  color: white;
-}
+
 
 /*single report style*/
 .reportstyle{
-  width: 100%;
-  margin-left: 20%;
+  width: 70%;
+  margin-left: 25%;
 
+}
+.reportstyle p{
+  font-size: 2vw;
 }
 
 /*stock style*/
 .itembtn{
   width: 70%;
+  margin-top: 5%;
   margin-left: 5%;
   font-size: 2vw;
 }
@@ -109,9 +123,13 @@ input[type=text], input[type=password] {
 
 
 /*stock info seasonal best sales style*/
+.stock{
+  width: 100%;
+  margin-left: 25%;
+}
 .stockitem{
   background-color: rgba(3, 49, 70, 1);
-  margin-left:35%;
+  margin-left:10%;
   width: 50%;
   height: 50%;
 }
@@ -123,24 +141,28 @@ input[type=text], input[type=password] {
 .stockiteminfo{
   color: rgba(3, 49, 70, 1);
   font-size: 2vw;
-  text-align: center;
+  margin-left: 15%;
 }
-.stockiteminfo p{
-  margin-left:20%;
+.stockbenefit{
+  margin-left: 10%;
 }
 .stockiteminfo input{
-  margin-left: 24%;
+  margin-left: 20%;
   color: black;
   font-size: 2vw;
   text-align:center;
 }
 .stockiteminfo button{
-  margin-left: 24%;
+  margin-top: 2%;
+  margin-left: 15%;
+  width: 20%;
+  height: 10%;
+  border-radius: 4px;
   background-color: rgba(3, 49, 70, 1);
-  color: white;
-  border-radius: 2px;
+  color: rgba(243, 242, 241, 1);
   font-size: 2vw;
-  text-align:center;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
 }
 
 /* seasonal best sales style */
@@ -152,11 +174,6 @@ input[type=text], input[type=password] {
   background-color: rgba(3, 49, 70, 1);
   text-align: center;
   border: 1px solid rgba(187, 187, 187, 1);
-}
-.main .editbtn{
-  width: 50%;
-  margin-left: 25%;
-  color: rgba(3, 49, 70, 1);
 }
 .seasonalbs, .home{
   margin-left:25%;
@@ -250,8 +267,8 @@ input[type=text], input[type=password] {
 }
 
 .btn{
-  margin-top: 10%;
-  margin-left: 100px;
+  margin-top: 5%;
+  margin-left: 30px;
   left: 300px;
   top: 700px;
   width: 20%;
@@ -306,7 +323,7 @@ same as report*/
 .notibody{
   width: 100%;
   height: 50px;
-  font-size: 2vw;
+  font-size: 1.8vw;
   margin-top: 0%;
   color: white;
   border: 1px solid rgba(187, 187, 187, 1);
@@ -321,10 +338,11 @@ same as report*/
 /*home style*/
 .heading{
   margin-left: 5%; 
-  width: 30%;
+  width: 40%;
 }
 .qrandnotibtn{
-  margin-left: 90%;
+  margin-left: 70%;
+  width: 30%;
 }
 .search{
   margin-top: 2%;
@@ -341,8 +359,7 @@ same as report*/
   margin-left: 11%;
 }
 .funbtn{
-  margin-top: 5%;
-  margin-left: 10%;
+  margin-top: 3%;
 }
 .funbtn i{
   margin-top: 10%;
@@ -351,13 +368,13 @@ same as report*/
   margin-left: 2%;
 }
 .productseasonalbs{
-  width: 90%;
+  width: 100%;
   margin-top: 0%;
-  margin-left: 5%;
+  margin-left: 0%;
   border: 1px solid rgba(3, 49, 70, 1);
 }
 .seasonalbg{
-  left: 0px;
+  margin-left: 0%;
   width: 100%;
   color: white;
   font-size: 2vw;
@@ -373,13 +390,13 @@ same as report*/
 /*single order old style */
 .order{
   margin-left:25%;
-  width: 80%;
   height:5%;
   line-height: 20px;
   text-align:left;
 }
 .singleorder{
-  width: 90%;
+  margin-left: 2%;
+  width: 95%;
   height: 50%;
   border: 1px solid rgba(187, 187, 187, 1);
   background-color: rgba(3, 49, 70, 1);
