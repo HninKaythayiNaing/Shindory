@@ -1,15 +1,30 @@
- <?php
+
+
+  <?php
+
+
  $id	=$_POST['id'];
  $name	=$_POST['name'];
  $email	=$_POST['email'];
  $phone =$_POST['phone'];
  $password	=$_POST['password'];
+ $confirmrpw=$_POST['confirmrpw'];
 
  $conn= new mysqli('localhost','root', '','shindorydb');
  if($conn->connect_error){
  	die('Connection Failed : '.$conn->connect_error);
 
- }else{
+ }else if($password!=$confirmrpw){
+	echo'<script> alert("Passwords do not match!!!")</script>';
+}
+else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    $emailErr = "Invalid email format";
+    echo'<script> alert("Invalid email!!!")</script>';
+}
+
+
+
+ else{
  	$stmt = $conn->prepare("insert into registration(id,name,email,phone,password) values(?,?,?,?,?)");
  	$stmt->bind_param("issis",$id,$name,$email,$phone,$password);
  	$stmt->execute();
@@ -17,3 +32,7 @@
  	$stmt->close();
  	$conn->close();
  }
+
+ header("location:login.php?msg=success")
+
+ ?>
